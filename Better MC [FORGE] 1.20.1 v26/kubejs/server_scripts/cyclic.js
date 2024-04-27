@@ -40,8 +40,6 @@ ServerEvents.recipes(event => {
 		// Quivers
 		{ output: 'cyclic:quiver_damage' },
 		{ output: 'cyclic:quiver_lightning' },
-		
-		{ output: 'cyclic:gem_obsidian' }
 	);
 
 	console.info(outputs);
