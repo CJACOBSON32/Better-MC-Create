@@ -640,8 +640,8 @@
 				type: "item"
 			}]
 			title: "Craft a &7Safe"
-			x: -2.5d
-			y: 1.5d
+			x: 3.0d
+			y: -0.5d
 		}
 		{
 			id: "6EF76B3194FFE529"
@@ -776,6 +776,8 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["1CC44F0579D29A08"]
+			hide_dependency_lines: false
 			id: "283303A94E452303"
 			rewards: [{
 				count: 3
@@ -790,6 +792,72 @@
 				type: "item"
 			}]
 			title: "Craft a &3Storage Request Table"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"The &5map atlas&r is your minimap, world map, and waypoint placer. It will consume &6empty maps&r to map the area around you. Refill it in the cartography table."
+				""
+				"b - Place a Marker"
+				"ctrl-click - highlight a marker"
+				"shift-click - remove a marker"
+			]
+			id: "4712F5169CAAECE1"
+			rewards: [{
+				count: 16
+				id: "023BA3E8C55B0C01"
+				item: "minecraft:map"
+				type: "item"
+			}]
+			subtitle: "Your end-all-be-all for navigation"
+			tasks: [{
+				id: "1BB9A0CC8293019B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							maps: [I; ]
+						}
+					}
+					id: "map_atlases:atlas"
+				}
+				type: "item"
+			}]
+			title: "Craft an &6Atlas"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: ["You will have to obtain either a &0Wither Rose&r (make the wither shoot a rose) or a &5Popped Chorus Fruit&r (found in &5the end&r) to craft this."]
+			hide_dependency_lines: false
+			id: "31C6DDF90B39A6CC"
+			rewards: [
+				{
+					id: "7C2748FC5E75E243"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "storagenetwork:network_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "461091C4E3564EDF"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+			]
+			subtitle: "The Core of your network"
+			tasks: [{
+				id: "1CC44F0579D29A08"
+				item: "storagenetwork:master"
+				type: "item"
+			}]
+			title: "Craft a &3Storage Network Root"
 			x: -4.0d
 			y: 1.5d
 		}
