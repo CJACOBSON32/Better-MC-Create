@@ -40,6 +40,14 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-centered
+  x = -98
+  action = movebutton
+  y = -10
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-centered
   x = 105
@@ -58,19 +66,6 @@ customization {
 customization {
   identifier = %id=9764%
   action = hidebutton
-}
-
-customization {
-  identifier = %id=604334%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=604334%
-  orientation = bottom-centered
-  x = -28
-  action = movebutton
-  y = -23
 }
 
 customization {
@@ -104,7 +99,12 @@ customization {
   orientation = mid-centered
   x = -100
   action = movebutton
-  y = -5
+  y = 19
+}
+
+customization {
+  identifier = %id=376310%
+  action = hidebutton
 }
 
 customization {
@@ -115,9 +115,29 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
-  x = -100
+  x = -101
   action = movebutton
-  y = -29
+  y = -7
+}
+
+customization {
+  identifier = %id=376286%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376286%
+  orientation = bottom-right
+  x = -119
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=376286%
+  width = 114
+  action = resizebutton
+  height = 20
 }
 
 customization {
@@ -126,14 +146,6 @@ customization {
   x = 2
   action = movebutton
   y = 47
-}
-
-customization {
-  identifier = %id=604310%
-  orientation = top-left
-  x = 5
-  action = movebutton
-  y = 5
 }
 
 customization {
@@ -173,12 +185,12 @@ customization {
   orientation = mid-centered
   splash_color = #ffff00
   hidden = false
-  x = -90
+  x = -102
   width = 60
   splash_rotation = -20
   action = deep_customization_element:title_screen_splash
   actionid = 1448d3ba-b3f4-46c7-80b7-7eb153fd79f51686808471727
-  y = -125
+  y = -113
   height = 30
 }
 
@@ -205,69 +217,14 @@ customization {
 }
 
 customization {
+  path = resourcepacks/Graphics/create_quest_logo.png
   orientation = mid-centered
-  loopbackgroundanimations = true
-  hoverlabel = Use CODE: LunaPixel for 25% OFF!
-  restartbackgroundanimations = true
-  buttonaction = openlink;https://bisecthosting.com/LunaPixel%btnaction_splitter_fm%
-  x = -100
-  width = 200
-  action = addbutton
-  actionid = 23545ded-3613-4fce-8855-819ac62455821686808542625
-  y = 19
-  label = Bisect Server Hosting
-  height = 20
-}
-
-customization {
-  path = resourcepacks/Graphics/betterm.png
-  orientation = mid-centered
-  x = -152
-  width = 304
+  x = -141
+  width = 280
   action = addtexture
-  actionid = ba1bf56a-052b-47f9-bc1d-1563eee671ac1686808638513
-  y = -129
-  height = 100
-}
-
-customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = openlink;https://lunapixel.studio/discord%btnaction_splitter_fm%
-  x = -125
-  width = 20
-  action = addbutton
-  actionid = c2b90152-00d5-468b-933b-b628e8f9bf831686808689660
-  y = 19
-  label = 
-  height = 20
-}
-
-customization {
-  path = resourcepacks/Graphics/discord.png
-  orientation = mid-centered
-  x = -121
-  width = 13
-  action = addtexture
-  actionid = 9f378eaa-0367-4c65-8f8a-4f83677009741686808713128
-  y = 22
-  height = 14
-}
-
-customization {
-  orientation = bottom-left
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = openlink;https://github.com/LunaPixelStudios/Better-MC/wiki/Performance-Guide%btnaction_splitter_fm%
-  x = 3
-  width = 114
-  action = addbutton
-  actionid = cb4f914f-fb88-4d53-adb5-b7199c08b7c81686808766368
-  y = -24
-  description = A guide on improving your FPS!
-  label = Performance Guide
-  height = 20
+  actionid = 43e9ecf2-57fd-4a8f-ae19-f589a2be60b41714454448668
+  y = -141
+  height = 132
 }
 
 customization {
@@ -282,25 +239,16 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
-  orientation = bottom-centered
-  x = -98
-  action = movebutton
-  y = -10
-}
-
-customization {
-  identifier = %id=376286%
   orientation = bottom-right
-  x = -119
-  action = movebutton
-  y = -25
-}
-
-customization {
-  identifier = %id=376286%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/CJACOBSON32/Better-MC-Create%btnaction_splitter_fm%
+  x = -117
   width = 114
-  action = resizebutton
+  action = addbutton
+  actionid = d13bd2eb-631e-4144-b85f-5a0c18a8bc7f1714454753910
+  y = -24
+  label = Modpack Info
   height = 20
 }
 

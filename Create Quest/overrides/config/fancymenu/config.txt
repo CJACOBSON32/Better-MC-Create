@@ -32,7 +32,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'Better MC [FORGE] 1.20.1';
+S:customwindowtitle = 'Create Quest 1.20.1';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 
