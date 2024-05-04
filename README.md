@@ -19,14 +19,14 @@ As previously stated, this is a fork of Better MC. Here is a list of changes mad
 - QoL
   - Added [Light Overlay](https://www.curseforge.com/minecraft/mc-mods/light-overlay)
   - Added [Appleskin](https://www.curseforge.com/minecraft/mc-mods/appleskin)
-  - Added [Sophistocated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks)
+  - Added [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks)
 - Balance
   - Gated [Simple storage network]() 
   - Gated [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones) behind [The Deep Dark](https://www.curseforge.com/minecraft/mc-mods/deeperdarker)
   - Replaced Xaero's Minimap with Map Atlases
   - Removed [Falling Tree](https://www.curseforge.com/minecraft/mc-mods/falling-tree)
   - Gated flight potions behind several dimensions
-  - Gated Sophistocated Backpacks behind Shulker boxes
+  - Gated Sophisticated Backpacks behind Shulker boxes
 - Enchanting and Gear
   - Added Apotheosis
   - Added Cyclic (most items are disabled for balance)
