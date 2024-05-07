@@ -5,7 +5,7 @@
 	#Range: > 0
 	modpackProjectID = 876781
 	#The name of the modpack
-	modpackName = "Better MC [FORGE] 1.20.1"
+	modpackName = "Create Quest 1.20.1"
 	#The version of the modpack
 	modpackVersion = "0.1"
 	#Use the metadata.json to determine the modpack version
