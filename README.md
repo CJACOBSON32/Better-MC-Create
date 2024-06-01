@@ -1,4 +1,5 @@
 ![Create_Quest_Banner](https://github.com/CJACOBSON32/Create-Quest/assets/34342644/805b4c8a-50a3-4def-aa8b-3e097fe4d798)
+[![Create-Quest](https://cf.way2muchnoise.eu/1013336.svg)](https://www.curseforge.com/minecraft/modpacks/create-quest)
 
 Create Quest is a fork of [Better MC](https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4) by [SHXRKIE](https://www.curseforge.com/members/shxrkie/projects). Some questlines were also borrowed from [All the Mods 9](https://www.curseforge.com/minecraft/modpacks/all-the-mods-9) by . All credit goes to the respective creators. They likely need no introduction as they are some of the most popular packs, but I highly recommend them if you haven't tried them.
 
