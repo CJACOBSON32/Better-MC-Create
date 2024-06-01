@@ -11,7 +11,7 @@ Create Quest is a fork of [Better MC](https://www.curseforge.com/minecraft/modpa
 - Advanced tools ([Advanced Netherite](https://www.curseforge.com/minecraft/mc-mods/advanced-netherite), [Apotheosis](https://www.curseforge.com/minecraft/mc-mods/apotheosis), [Silent Gear](https://www.curseforge.com/minecraft/mc-mods/silent-gear))
 - [Create mod](https://www.curseforge.com/minecraft/mc-mods/create), [Create: Steam n' Rails](https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails), and [Create: Crafts & Additions](https://www.curseforge.com/minecraft/mc-mods/createaddition)
 
-[Full mod list]() (Will be a link to modpackindex)
+[Full mod list](https://www.modpackindex.com/modpack/82707/create-quest)
 
 ## Changes
 As previously stated, this is a fork of Better MC. Here is a list of changes made:
