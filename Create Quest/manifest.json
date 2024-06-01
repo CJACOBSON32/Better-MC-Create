@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Create Quest",
-  "version": "0.1",
+  "version": "0.2",
   "author": "",
   "files": [
     {
@@ -390,11 +390,6 @@
       "required": true
     },
     {
-      "projectID": 659674,
-      "fileID": 4763056,
-      "required": true
-    },
-    {
       "projectID": 536660,
       "fileID": 4769518,
       "required": true
@@ -577,6 +572,11 @@
     {
       "projectID": 858850,
       "fileID": 4525278,
+      "required": true
+    },
+    {
+      "projectID": 688768,
+      "fileID": 5331908,
       "required": true
     },
     {
@@ -837,6 +837,11 @@
     {
       "projectID": 318602,
       "fileID": 4927038,
+      "required": true
+    },
+    {
+      "projectID": 659674,
+      "fileID": 4763056,
       "required": true
     },
     {
@@ -1176,7 +1181,7 @@
     },
     {
       "projectID": 688231,
-      "fileID": 5246901,
+      "fileID": 5331300,
       "required": true
     },
     {
