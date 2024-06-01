@@ -16,7 +16,7 @@
 	#Range: 0 ~ 12
 	starting_sub_season = 1
 	#If the season should progress on a server with no players online
-	progress_season_while_offline = true
+	progress_season_while_offline = false
 
 [aesthetic_settings]
 	#Change the grass color based on the current season
@@ -38,8 +38,8 @@
 	#rolls should be 0 if blocks should not melt in that season.
 	[[melting_settings.season_melt_chances]]
 		season = "EARLY_WINTER"
-		melt_percent = 0.0
-		rolls = 0
+		melt_percent = 6.25
+		rolls = 1
 
 	[[melting_settings.season_melt_chances]]
 		season = "MID_WINTER"
@@ -48,51 +48,51 @@
 
 	[[melting_settings.season_melt_chances]]
 		season = "LATE_WINTER"
-		melt_percent = 0.0
-		rolls = 0
+		melt_percent = 6.25
+		rolls = 1
 
 	[[melting_settings.season_melt_chances]]
 		season = "EARLY_SPRING"
-		melt_percent = 6.25
+		melt_percent = 12.5
 		rolls = 1
 
 	[[melting_settings.season_melt_chances]]
 		season = "MID_SPRING"
-		melt_percent = 8.33
+		melt_percent = 16.67
 		rolls = 1
 
 	[[melting_settings.season_melt_chances]]
 		season = "LATE_SPRING"
-		melt_percent = 12.5
+		melt_percent = 25.0
 		rolls = 1
 
 	[[melting_settings.season_melt_chances]]
 		season = "EARLY_SUMMER"
-		melt_percent = 25.0
+		melt_percent = 50.0
 		rolls = 1
 
 	[[melting_settings.season_melt_chances]]
 		season = "MID_SUMMER"
-		melt_percent = 25.0
+		melt_percent = 50.0
 		rolls = 1
 
 	[[melting_settings.season_melt_chances]]
 		season = "LATE_SUMMER"
-		melt_percent = 25.0
+		melt_percent = 50.0
 		rolls = 1
 
 	[[melting_settings.season_melt_chances]]
 		season = "EARLY_AUTUMN"
-		melt_percent = 12.5
+		melt_percent = 25.0
 		rolls = 1
 
 	[[melting_settings.season_melt_chances]]
 		season = "MID_AUTUMN"
-		melt_percent = 8.33
+		melt_percent = 16.67
 		rolls = 1
 
 	[[melting_settings.season_melt_chances]]
 		season = "LATE_AUTUMN"
-		melt_percent = 6.25
+		melt_percent = 12.5
 		rolls = 1
 
