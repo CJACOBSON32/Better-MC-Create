@@ -1,0 +1,3 @@
+renderDistance:16
+guiScale:3
+soundCategory_music:0.20
